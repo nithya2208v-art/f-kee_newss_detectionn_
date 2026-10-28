@@ -1,0 +1,35 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# ---------- Virtual environments ----------
+venv/
+.venv/
+env/
+ENV/
+
+# ---------- Jupyter / Colab ----------
+.ipynb_checkpoints/
+.virtual_documents/
+
+# ---------- IDE / editor ----------
+.vscode/
+.idea/
+*.swp
+
+# ---------- OS files ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Secrets & logs ----------
+.env
+*.log
+
+# ---------- Local test output (keep images/ so README pictures work) ----------
+output/
+tmp/

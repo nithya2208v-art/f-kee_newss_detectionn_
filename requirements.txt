@@ -1,0 +1,9 @@
+# Core dependency (dataset loading, evaluation tables)
+pandas>=1.3
+
+# Used only for drawing the DFA state diagram (--diagram option / notebook)
+matplotlib>=3.3
+
+# Optional - only needed to open fake_news_detection.ipynb inside VS Code / Jupyter:
+# ipykernel
+# jupyter
